@@ -3,4 +3,4 @@ venv/*
 *.pdf
 .vscode/
 __pycache__/
-
+playground.py

@@ -1,0 +1,46 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper, total={40mm,200mm}, left=5mm, top=2mm, right=5mm]{geometry}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\title{%name%}
+\author{Michael Mueller}
+\date{today}
+
+\renewcommand\labelitemi{\raisebox{0.5ex}{\tiny$\bullet$}}
+
+\begin{document}
+\pagestyle{empty}
+\setlength{\parindent}{0cm}
+
+\section*{%name% - %recipeCategory%}
+%description%
+\bigskip
+
+\begin{minipage}{0.35\textwidth}
+\begin{itemize}
+\itemsep0em 
+%recipeIngredient%
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}{0.65\textwidth}
+\begin{tabular}{|p{\textwidth}}
+\includegraphics[width=10cm, height=10cm,keepaspectratio]{image.jpg}
+
+%recipeYield%
+
+%nutrition%
+
+%totalTime%
+\end{tabular}
+\end{minipage}
+
+\bigskip
+
+%recipeInstructions%
+
+\bigskip
+
+%keywords%
+\end{document}
